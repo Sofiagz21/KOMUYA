@@ -7,7 +7,7 @@ const Goals = () => {
     return (
         <div>
             <h1>Hola</h1>
-            <Link to="/Komuya_proyecto">
+            <Link to="/">
             <button> Devolver </button>
             </Link>
         </div>
