@@ -13,12 +13,12 @@ import{
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
         {/* path que me corrige que la primera ruta sea el Home*/}
         <Route path="/Komuya_proyecto" exact component={Home}/>
         {/*RUTA QUE ME REDIRECCIONE PARA LA PÁGINA HOME*/}
-          <Route path="/Komuya_Proyecto" exact component={Home}/>
+          <Route path="/" exact component={Home}/>
           {/*RUTA QUE ME REDIRECCIONE PARA LA PÁGINA RETOS DE LA SEMANA*/}
           <Route path="/Goals" exact component={Goals}/>
           </Switch>
