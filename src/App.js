@@ -21,6 +21,7 @@ function App() {
           <Route path="/" exact component={Home}/>
           {/*RUTA QUE ME REDIRECCIONE PARA LA PÁGINA RETOS DE LA SEMANA*/}
           <Route path="/Goals" exact component={Goals}/>
+          
           </Switch>
         </Router>
     </div>

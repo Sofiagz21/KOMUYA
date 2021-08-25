@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.circle{
+display: flex;
+}
+.circuloAmarillo {
+    left: 0px;
+    top: -3px;
+    position: absolute;
+}
+
+.circuloAzul {
+    top: -5px;
+    position: absolute;
+    left: 0px;
+}
+.circuloRosa{
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.circuloGris{
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+  
+.logo{
+    margin: 35px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    max-width: 500px;
+    min-width: 320px;
+}
