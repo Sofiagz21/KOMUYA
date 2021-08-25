@@ -1,6 +1,6 @@
 import React from 'react';
-import Home from './pages/Home.jsx'
-import Goals from './pages/Goals.jsx'
+import Home from './pages/Home'
+import Goals from './pages/Goals'
 import{
   BrowserRouter as Router,
   Switch,
@@ -13,7 +13,7 @@ import{
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
         {/* path que me corrige que la primera ruta sea el Home*/}
         <Route path="/" exact component={Home}/>
