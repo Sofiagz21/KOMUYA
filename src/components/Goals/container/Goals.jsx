@@ -7,8 +7,8 @@ const Goals = () => {
     return (
         <div>
             <h1>Hola</h1>
-            <Link to="/"> {/*Para home*/}
-                <button> Devolver</button>
+            <Link to="/">
+              <button> Me voy para Home </button>
             </Link>
         </div>
     )
