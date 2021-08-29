@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.goals{
+    height: 100vh;
+    background-size: 100%;
+    background-color: #8BE9F0;
+}
+
+.titulo{
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 60px;
+}
+
+.container{
+    margin-top: 50px;
+    border:5px solid red;
+    height: 70vh;
+}
+
+.retos{
+    margin-top: 50px;
+    margin-left:150px;
+    height: 80%;
+    width: 80%;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.card{
+    margin-left: 45%;
+    margin-top: 5%
+} 
+
+.contentCards{
+    margin-top: 0;
+    margin-left: 7%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 550px ;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.contentCards .card{
+    position: relative;
+    height: 500px;
+    background: #fafafa;
+    display: flex;
+    width: 350px;
+    margin: 30px 0 0 25%;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0, 1);
+}
+
+.contentCards .card .imgBx{
+    background: rgb(211, 203, 224, 0.1);
+    margin-right: 50px;
+    width: 95%;
+    height: 98%;
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    backdrop-filter: blur(20px);
+    height: calc(100%-20px);
+    width: calc(100%-20px);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255, 0.2);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease-in-out;
+
+}
+
+.contentCards .card:hover .imgBx{
+    right: 50px;
+    top:200px;
+    height: 200px;
+    width: 150px;
+    left: -100px;
+    top: calc(50%-75px);
+}
+
+.contentCards .card .imgBx img{
+    max-width: 150px;
+    transition: 0.5s ease-in-out;
+}
+
+.contentCards .card:hover .imgBx img{
+    max-width: 95px;
+}
+
+.contentCards .card .content{
+    position: absolute;
+    right: 0;
+    width: calc(100% - 75px);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentCards .card .content h3{
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.contentCards .card .content a{
+    font-size: 20px;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    width: 120px;
+}
+
+.content .contentCards h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
