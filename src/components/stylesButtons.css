@@ -1,0 +1,127 @@
+.regresar{
+    border-radius: 50%;
+    margin-top: 25px;
+    background:none;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 30px;
+    letter-spacing: 3px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+ .regresar img:hover{
+     border-radius: 50%;
+    background-color: #3f5e81;
+}
+
+.regresar img{
+    width: 60px;
+}
+
+
+
+.regresar_lunes{
+    margin-top: 25px;
+    background-color: #FFB92B;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 30px;
+    letter-spacing: 3px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+ .regresar_lunes:hover{
+    background-color: #da9a1a;
+}
+
+.regresar_martes{
+    margin-top: 25px;
+    background-color: #5A95CE;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 30px;
+    letter-spacing: 3px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+ .regresar_martes:hover{
+    background-color: #3474b1;
+}
+
+
+.regresar_miercoles{
+    margin-top: 25px;
+    background-color: #8BE9F0;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 30px;
+    letter-spacing: 3px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+ .regresar_miercoles:hover{
+    background-color: #268b92;
+}
+
+.regresar_jueves{
+    margin-top: 25px;
+    background-color: #FECE76;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 30px;
+    letter-spacing: 3px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+ .regresar_jueves:hover{
+    background-color: #e9a629;
+}
+
+.regresar_viernes{
+    margin-top: 25px;
+    background-color: #FBFE76;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 30px;
+    letter-spacing: 3px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+ .regresar_viernes:hover{
+    background-color: #edf052;
+}
+
+@media (max-width:420px){
+    .regresar img{
+        width: 35px;
+    }
+    .regresar_lunes, .regresar_martes,  .regresar_miercoles, .regresar_jueves, .regresar_viernes{
+        font-size: 15px;
+
+     }
+}
+

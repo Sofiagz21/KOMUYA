@@ -8,6 +8,11 @@ import{
   Route, 
   Link,
 } from "react-router-dom";
+import ChallengeOne from './pages/Challenges/ChallengeOne/container/challengeOne';
+import ChallengeTwo from './pages/Challenges/ChallengeTwo/container/challengeTwo';
+import ChallengeThree from './pages/Challenges//ChallengeThree/container/challengeThree';
+import ChallengeFour from './pages/Challenges/ChallengeFour/container/challengeFour';
+import ChallengeFive from './pages/Challenges/ChallengeFive/container/challengeFive';
 
 
 
@@ -16,12 +21,17 @@ function App() {
     <div className="App">
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-        {/* path que me corrige que la primera ruta sea el Home*/}
         <Route path="/" exact component={Home}/>
-        {/*RUTA QUE ME REDIRECCIONE PARA LA PÁGINA HOME*/}
-          {/*RUTA QUE ME REDIRECCIONE PARA LA PÁGINA RETOS DE LA SEMANA*/}
           <Route path="/Goals" exact component={Goals}/>
+<<<<<<< HEAD
           <Route path="/Frases" exact component={Frases}/>
+=======
+          <Route path="/One" exact component={ChallengeOne}/>
+          <Route path="/Two" exact component={ChallengeTwo}/>
+          <Route path="/Three" exact component={ChallengeThree}/>
+          <Route path="/Four" exact component={ChallengeFour}/>
+          <Route path="/Five" exact component={ChallengeFive}/>
+>>>>>>> 44c2b254b69f201f2e141f01d0f34a810b7c1972
           </Switch>
         </Router>
     </div>
