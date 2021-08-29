@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './pages/Home'
 import Goals from './pages/Goals'
+import Frases from './pages/Frases'
 import{
   BrowserRouter as Router,
   Switch,
@@ -20,6 +21,7 @@ function App() {
         {/*RUTA QUE ME REDIRECCIONE PARA LA PÁGINA HOME*/}
           {/*RUTA QUE ME REDIRECCIONE PARA LA PÁGINA RETOS DE LA SEMANA*/}
           <Route path="/Goals" exact component={Goals}/>
+          <Route path="/Frases" exact component={Frases}/>
           </Switch>
         </Router>
     </div>
