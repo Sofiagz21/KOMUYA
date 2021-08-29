@@ -1,5 +1,13 @@
 
+/*Fuente Londrina*/
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+/*font-family: 'Londrina Solid', cursive;*/
+
+
+/*Fuente Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Poppins:ital,wght@0,200;1,200&display=swap');
+/*font-family: 'Londrina Solid', cursive;*/
+
 
 
 *{
@@ -10,38 +18,55 @@
 
 
 .goals{
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    width: 100%;
     background-size: 100%;
     background-color: #8BE9F0;
 }
 
+.top{
+    margin-left: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
 .titulo{
-    padding-top: 15px;
-    text-align: center;
+    justify-content: flex-end;
+    padding-top: 10px;
     font-family: 'Londrina Solid', cursive;
     font-size: 60px;
 }
 
-.container{
-    margin-top: 50px;
-    border:5px solid red;
-    height: 70vh;
-}
 
 .retos{
-    margin-top: 50px;
     margin-left:150px;
-    height: 80%;
-    width: 80%;
-    border: 2px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 420px;
+}
+
+.retos_dos{
+    margin-left: 250px;
+    width: 80%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.space{
+    margin-left: 185px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    margin-bottom: 25px;
 }
 
 .card{
     margin-left: 45%;
-    margin-top: 5%
 } 
 
 .contentCards{
@@ -57,7 +82,7 @@
 
 .contentCards .card{
     position: relative;
-    height: 500px;
+    height: 380px;
     background: #fafafa;
     display: flex;
     width: 350px;
@@ -94,7 +119,7 @@
     top:200px;
     height: 200px;
     width: 150px;
-    left: -100px;
+    left: -50px;
     top: calc(50%-75px);
 }
 
@@ -119,9 +144,10 @@
 }
 
 .contentCards .card .content h3{
+    font-family: 'Poppins', sans-serif;
     margin-top: 2px;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 50px;
 }
 
 .contentCards .card .content a{
@@ -139,7 +165,6 @@
 }
 
 .content .contentCards h3{
-    text-transform: uppercase;
     text-align: center;
-    font-family: 'Playfair Display', serif;
 }
+
