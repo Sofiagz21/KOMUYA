@@ -3,6 +3,7 @@ import {Link} from "react-router-dom"
 import '../stylesGoals.css'
 import '../../stylesButtons.css'
 
+
 const Goals = () => {
     return (
         <div className="goals">
