@@ -21,7 +21,7 @@ const Goals = () => {
             </Link>
             </div>
             </div>
-            <div className="container_goals">
+            <div className="container">
               <div className="retos">
                 <div className="Lunes">
                 <div class="contentCards">
