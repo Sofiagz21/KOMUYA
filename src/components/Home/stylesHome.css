@@ -41,7 +41,7 @@ display: flex;
 }
 
 .logo img{
-    max-width: 40%;
+    width: 40%;
 }
 
 .cajaIngresar{
@@ -65,3 +65,102 @@ display: flex;
 .ingresar:hover{
     background-color: #3f5e81;
 }
+
+/* RESPONSIVE*/
+
+
+@media only screen and (max-width: 420px){
+
+    .circuloAmarillo img{
+        width: 100px;
+    }
+    .circuloAzul img{
+        width: 120px;
+    }
+
+    .circuloGris img{
+        width: 150px;
+    }
+    .circuloRosa img{
+        width: 100px;
+    }
+
+    .logo{
+        margin-top: 45%;
+    }
+
+  .logo img{
+      width: 300px;
+  }
+
+  .ingresar{
+      margin-top: 30px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (min-width: 568px)and (max-width:768px){
+    .circuloAmarillo img{
+        width: 50%;
+    }
+
+    .circuloAzul img{
+        width: 50%;
+    }
+
+    .circuloGris img{
+        width: 150px;
+    }
+    .circuloRosa img{
+        width: 100px;
+    }
+    .logo{
+        margin-top: 10%;
+    }
+
+  .logo img{
+      width: 50%;
+  }
+
+  .ingresar{
+      margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: 300;
+  }
+}
+
+
+@media only screen and (min-width: 769px)and (max-width:1024px){
+    .circuloAmarillo img{
+        width: 180px;
+    }
+
+    .circuloAzul img{
+        width: 200px;
+    }
+
+    .circuloGris img{
+        width: 200px;
+    }
+    .circuloRosa img{
+        width: 130px;
+    }
+    .logo{
+        margin-top: 50px;
+    }
+
+  .logo img{
+      width: 50%;
+  }
+
+  .ingresar{
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size: 25px;
+    font-weight: 300;
+  }
+}
+
