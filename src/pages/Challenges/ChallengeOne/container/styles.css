@@ -1,0 +1,38 @@
+/*Fuente Londrina*/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+/*font-family: 'Londrina Solid', cursive;*/
+
+
+/*Fuente Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Poppins:ital,wght@0,200;1,200&display=swap');
+/*font-family: 'Poppins', sans-serif*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #8BE9F0;
+}
+
+.texto{
+    margin-top: 25px;
+}
+
+.texto p{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Poppins', sans-serif ;
+}
+
+.seleccionar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}

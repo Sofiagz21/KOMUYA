@@ -32,7 +32,7 @@ const Goals = () => {
                         <div class="content">
                             <div>
                                 <h3 id="Lunes">Lunes</h3>
-                                <Link to="/">
+                                <Link to="/One">
                                      <button className="regresar_lunes"> Reto </button>
                                 </Link>
                             </div>
@@ -49,7 +49,7 @@ const Goals = () => {
                         <div class="content">
                             <div>
                                 <h3 id="Martes">Martes</h3>
-                                <Link to="/">
+                                <Link to="/Two">
                                       <button className="regresar_martes"> Reto </button>
                                 </Link>
                             </div>
@@ -67,7 +67,7 @@ const Goals = () => {
                         <div class="content">
                             <div>
                                 <h3 id="Miercoles">Miercoles</h3>
-                                <Link to="/">
+                                <Link to="/Three">
                                      <button className="regresar_miercoles"> Reto </button>
                                 </Link>
                             </div>
@@ -86,7 +86,7 @@ const Goals = () => {
                         <div class="content">
                             <div>
                                 <h3 id="Jueves">Jueves</h3>
-                                <Link to="/">
+                                <Link to="/Four">
                                      <button className="regresar_jueves"> Reto </button>
                                 </Link>
                             </div>
@@ -103,7 +103,7 @@ const Goals = () => {
                         <div class="content">
                             <div>
                                 <h3 id="Viernes">Viernes</h3>
-                                <Link to="/">
+                                <Link to="/Five">
                                      <button className="regresar_viernes"> Reto </button>
                                 </Link>
                             </div>
