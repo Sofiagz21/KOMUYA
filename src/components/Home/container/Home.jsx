@@ -33,7 +33,9 @@ const Homecontainer = () => {
             </div>
             
             <Link to="/Goals">
-            <button> Ingresar </button>
+            <div className="cajaIngresar">
+                <button className="ingresar"> Ingresar </button>
+            </div>
             </Link>
         </div>
     )
