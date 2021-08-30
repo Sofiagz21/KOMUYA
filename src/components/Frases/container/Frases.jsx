@@ -3,7 +3,7 @@ import '../stylesFrases.css'
 
 const Frases = () => {
     return (
-        <div className="container">
+        <div className="contenedor">
             <div className="frase">
                 <div className="title">Frase del día</div>
                 <div className="text">
