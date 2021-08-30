@@ -27,15 +27,11 @@ function App() {
         <Switch>
         <Route path="/" exact component={Home}/>
           <Route path="/Goals" exact component={Goals}/>
-<<<<<<< HEAD
           <Route path="/Frase1" exact component={Frase1}/>
           <Route path="/Frase2" exact component={Frase2}/>
           <Route path="/Frase3" exact component={Frase3}/>
           <Route path="/Frase4" exact component={Frase4}/>
           <Route path="/Frase5" exact component={Frase5}/>
-=======
-          <Route path="/Frases" exact component={Frases}/>
->>>>>>> origin
           <Route path="/One" exact component={ChallengeOne}/>
           <Route path="/Two" exact component={ChallengeTwo}/>
           <Route path="/Three" exact component={ChallengeThree}/>
