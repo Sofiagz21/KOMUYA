@@ -68,3 +68,55 @@ background-color: #5A95CE;
    text-decoration: none;
    cursor: pointer;
 }
+
+@media (max-width:420px){
+
+    .titleFrase{
+        font-family: 'Fredoka One', cursive;
+        color: #510A0D;
+        text-shadow: rgba(0, 0, 0, 0,25);
+        font-size:  25px;
+        margin:20px 45px;
+    }
+
+    .boxText{
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        margin:35px 58px;
+    }
+
+    .cardFrase{
+        display:flex;
+        flex-direction: column;
+        background: rgba(250, 240, 206, 0.8);
+        margin: 90px;
+        border-radius: 50px;
+        height: 450px;
+        padding: 15px;
+    
+    }
+
+    .contenedor{
+        background-image: url("../../utils/images/Frases/retosFondo.png");
+        background-size: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+    }
+
+    .ok{
+        font-size: 10px;
+        margin-top: 62px;
+        }
+
+
+        .fa-caret-left{
+            font-size: 45px;
+            position: absolute;
+            color: black;
+            bottom: 25px;
+            margin: 130px;
+         }
+}
