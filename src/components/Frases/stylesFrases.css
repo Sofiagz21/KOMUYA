@@ -80,20 +80,16 @@ background-color: #5A95CE;
     }
 
     .boxText{
-        display: flex;
         font-family: 'Poppins', sans-serif;
         font-size: 15px;
-        margin:35px 58px;
     }
 
     .cardFrase{
-        display:flex;
-        flex-direction: column;
+        margin: 20px;
+        width: auto;
         background: rgba(250, 240, 206, 0.8);
-        margin: 90px;
         border-radius: 50px;
-        height: 450px;
-        padding: 15px;
+        height: auto;
     
     }
 
@@ -107,6 +103,7 @@ background-color: #5A95CE;
     }
 
     .ok{
+        bottom: 54px;
         font-size: 10px;
         margin-top: 62px;
         }
@@ -116,7 +113,7 @@ background-color: #5A95CE;
             font-size: 45px;
             position: absolute;
             color: black;
-            bottom: 25px;
-            margin: 130px;
+            bottom: 30px;
+            margin: 45px;
          }
 }
