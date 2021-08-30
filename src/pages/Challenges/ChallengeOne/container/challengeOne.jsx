@@ -1,6 +1,7 @@
 import React from 'react'
 import Encabezado from '../../../../components/Encabezado/container/encabezado'
 import '../container/styles.css'
+import '../container/responsive.css'
 
 const ChallengeOne= () => {
     return (
