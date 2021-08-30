@@ -7,8 +7,15 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .boxFrase{
     background-image: url(../../utils/images/Frases/retosFondo.png);
+=======
+.contenedor{
+    background-image: url("../../utils/images/Frases/retosFondo.png");
+    background-size: 100%;
+    width: 100%;
+>>>>>>> origin
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
