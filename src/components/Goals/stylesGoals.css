@@ -41,13 +41,14 @@
 
 
 .retos{
+    margin-left: 10%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 420px;
 }
 
 .retos_dos{
-    margin-left: 175px;
+    margin-left: 34%;
     width: 80%;
     align-items: center;
     display: grid;
