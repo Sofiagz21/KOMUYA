@@ -1,0 +1,15 @@
+@media (max-width:420px){
+
+    .texto p{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width:568px) and (max-width:768px) {
+
+    .texto p{
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+}
