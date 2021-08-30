@@ -32,7 +32,7 @@ const Goals = () => {
                         <div class="content">
                             <div>
                                 <h3 id="Lunes">Lunes</h3>
-                                <Link to="/One">
+                                <Link to="/Frase1">
                                      <button className="regresar_lunes"> Reto </button>
                                 </Link>
                             </div>
@@ -49,7 +49,7 @@ const Goals = () => {
                         <div class="content">
                             <div>
                                 <h3 id="Martes">Martes</h3>
-                                <Link to="/Two">
+                                <Link to="/Frase2">
                                       <button className="regresar_martes"> Reto </button>
                                 </Link>
                             </div>
@@ -67,7 +67,7 @@ const Goals = () => {
                         <div class="content">
                             <div>
                                 <h3 id="Miercoles">Miercoles</h3>
-                                <Link to="/Three">
+                                <Link to="/Frase3">
                                      <button className="regresar_miercoles"> Reto </button>
                                 </Link>
                             </div>
@@ -86,7 +86,7 @@ const Goals = () => {
                         <div class="content">
                             <div>
                                 <h3 id="Jueves">Jueves</h3>
-                                <Link to="/Four">
+                                <Link to="/Frase4">
                                      <button className="regresar_jueves"> Reto </button>
                                 </Link>
                             </div>
@@ -103,7 +103,7 @@ const Goals = () => {
                         <div class="content">
                             <div>
                                 <h3 id="Viernes">Viernes</h3>
-                                <Link to="/Five">
+                                <Link to="/Frase5">
                                      <button className="regresar_viernes"> Reto </button>
                                 </Link>
                             </div>

@@ -1,4 +1,6 @@
-gotn
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -11,4 +13,58 @@ gotn
     width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.titleFrase{
+    font-family: 'Fredoka One', cursive;
+    color: #510A0D;
+    text-shadow: rgba(0, 0, 0, 0,25);
+    font-size: 52px;
+    margin:20px 45px;
+}
+
+.cardFrase{
+    display:flex;
+    flex-direction: column;
+    background: rgba(250, 240, 206, 0.8);
+    margin: 90px;
+    border-radius: 50px;
+    width: 98%;
+    padding: 15px;
+
+}
+
+.boxText{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin:35px 58px;
+}
+
+.fa-caret-left{
+   font-size: 80px;
+   position: absolute;
+   color: black;
+   bottom: 100px;
+   margin: 25px;
+}
+
+.ok{
+background-color: #5A95CE;
+  position: absolute;
+   color: #000;
+   text-align: center;
+   bottom: 100px;
+   margin: 25px;
+   right: 150px;
+   padding: 10px 25px;
+   border: none;
+   border-radius: 5px;
+   font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+   text-decoration: none;
+   cursor: pointer;
 }
