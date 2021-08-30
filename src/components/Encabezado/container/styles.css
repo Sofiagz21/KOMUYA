@@ -49,11 +49,9 @@
 
 @media (max-width:420px){
 
-    
     .up{
         height: auto;
     }
-
 
     .log{
         margin-top: 10px;
@@ -82,7 +80,7 @@
     }
     .up p{
         color: black;
-        font-size: 13px;
+        font-size: 12px;
         margin-left: 4px;
         margin-bottom: 20px;
       }
