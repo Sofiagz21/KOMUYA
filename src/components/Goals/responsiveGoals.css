@@ -2,7 +2,6 @@
 @media (max-width:420px){
 
 
-    
     .contentCards .card{
         width: 0px;
     }
@@ -137,3 +136,142 @@
     }
      
     }
+
+
+
+
+@media only screen and (min-width:568px) and (max-width:768px){
+
+    .contentCards .card{
+        width: 0px;
+    }
+
+    .top{
+        margin-left: 115px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    
+    }
+
+    .titulo{
+        margin-left: 25px;
+        padding-top: 40px;
+        font-family: 'Londrina Solid', cursive;
+        font-size: 40px;
+    }
+    
+    .space{
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        width: 150px;
+        margin-bottom: 50px;
+    }
+
+    .retos{
+        margin-left: 115px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 390px;
+    }
+
+    .retos_dos{
+        margin-left: 115px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 390px;
+    }
+
+    .contentCards {
+        margin-top: 0;
+        margin: 0;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 550px);
+        row-gap: 120px;
+        align-items: center;
+        margin-bottom: 8%;
+    }
+    
+    .containerProductos{
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .card{
+     margin-top: 5%;
+    }
+    
+    
+    .contentCards{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 350px;
+        margin-top: 0px;
+        margin-left: 0%;
+    }
+    
+    .contentCards .card{
+    
+        height: auto;
+        flex-direction: column;
+        background: transparent;
+        box-shadow: none;
+        margin: 18%;
+    }
+    
+    .contentCards .card .imgBx{
+        left: 65px;
+        margin-top: 25%;
+        position: relative;
+    }
+    
+    .contentCards .card .imgBx img {
+        max-width: 100px;
+        transition: 0.5s ease-in-out;
+    } 
+    
+    .contentCards .card .imgBx, 
+    .contentCards .card:hover .imgBx{
+         width:180px;
+        height: 120px;
+        top: 80px;
+    }
+    
+    .contentCards .card:hover .imgBx{
+        top: 80px;
+    }
+    
+    .card .imgBx img ,
+    .card:hover .imgBx img{
+         max-width:80px;
+    }
+    
+    .contentCards .card .content{
+        position: relative;
+        width: 230px;
+        background: #ffff;
+        box-shadow: none;
+        border-radius: 20px;
+        padding: 20px 20px 40px;
+        border-top: 100px solid white;
+    }
+    
+    .content li{
+        font-size: 10px;
+    }
+    
+    .contentCards .card .content h3{
+        margin-left: 38%;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+    
+    .contentCards .card .content a{
+        margin-top: 2px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+}
