@@ -9,6 +9,7 @@
 
 
 
+
 .up{
     padding-top: 5px;
     display: grid;
@@ -18,8 +19,14 @@
     height: 90px;
 }
 
-.up img{
-    width: 250px;
+.log{
+    margin-top: 10px;
+    margin-left: 90px;
+    width: 180px;
+}
+
+.casa, .corazon, .salir{
+    margin-left: 95px;
 }
 
 .casa img{
@@ -35,6 +42,45 @@
 }
 
 .up p{
+  color: black;
   font-family: 'Poppins', sans-serif;
   margin-left: 8px;
+}
+
+@media (max-width:420px){
+
+    
+    .up{
+        height: auto;
+    }
+
+
+    .log{
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 100px;
+    }
+    
+    .casa img{
+        margin-top: 5px;
+        width: 25px;
+    }
+    
+    .corazon img{
+        width: 25px;
+    }
+    
+    .salir img{
+        width: 25px;
+    }
+
+    .casa, .corazon, .salir{
+        margin-left: 20px;
+    }
+    .up p{
+        color: black;
+        font-size: 13px;
+        margin-left: 4px;
+      }
+    
 }

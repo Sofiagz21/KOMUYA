@@ -8,7 +8,8 @@ import Salir from '../../../utils/images/Encabezado/salir.svg'
 const Encabezado= () => {
     return (
         <div className="up">
-                 <img src={Komuya}/>
+                 <img className="log"src={Komuya}/>
+              
                 <div className="casa">
                    <Link to="/">
                         <img src={Casa}/>
