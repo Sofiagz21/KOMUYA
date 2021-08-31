@@ -19,7 +19,7 @@ class Frases2 extends Component{
     render(){
         return (
             <div>
-                <div className="boxFrase">
+                <div className="contenedor">
                         <div className="cardFrase">
                             <div className="boxTitle">
                                 <h1 className="titleFrase">Frase del día.  <i class="fa fa-star" aria-hidden="true"></i></h1>
