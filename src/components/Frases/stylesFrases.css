@@ -69,14 +69,13 @@ background-color: #5A95CE;
    cursor: pointer;
 }
 
-@media (max-width:420px){
+
+@media only screen and (max-width: 420px){
 
     .titleFrase{
-        font-family: 'Fredoka One', cursive;
-        color: #510A0D;
-        text-shadow: rgba(0, 0, 0, 0,25);
-        font-size:  25px;
-        margin:20px 45px;
+        font-size:  35px;
+        text-align: center;
+        margin: 20px 30px;
     }
 
     .boxText{
@@ -85,16 +84,20 @@ background-color: #5A95CE;
     }
 
     .cardFrase{
-        margin: 20px;
-        width: auto;
+        margin:20px;
+        height: 570px;
         background: rgba(250, 240, 206, 0.8);
         border-radius: 50px;
+<<<<<<< HEAD
         height: 90%;
     
+=======
+
+>>>>>>> 6c5da9e2959ab254992242fc3d2a263c46248516
     }
 
     .contenedor{
-        background-image: url("../../utils/images/Frases/retosFondo.png");
+        background-image: url("../../utils/images/Frases/celuvertical.jpg");
         background-size: 100%;
         width: 100%;
         background-repeat: no-repeat;
@@ -102,15 +105,84 @@ background-color: #5A95CE;
         display: flex;
     }
 
+    .boxText{
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        text-align: left;
+        margin:25px 28px;
+    }
+
     .ok{
-        bottom: 54px;
+        bottom: 45px;
+        right: 35px;
+        font-weight: 600;
         font-size: 10px;
+        font-size: 20px;
         }
 
+    .ok:hover{
+        background-color: #719dc7;
+    }
 
-        .fa-caret-left{
-            font-size: 45px;
-            position: absolute;
-            color: black;
+
+    .fa-caret-left{
+        font-size: 55px;
+        bottom: 45px;
          }
+}
+
+@media only screen and (min-width:568px) and (max-width:768px){
+    .titleFrase{
+        font-size:35px;
+        text-align: center;
+        margin: 20px 30px;
+    }
+
+    .boxText{
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+
+    .cardFrase{
+        margin:30px;
+        height: 310px;
+        background: rgba(250, 240, 206, 0.8);
+        border-radius: 50px;
+    }
+
+    .boxText{
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        text-align: left;
+        margin:25px 28px;
+    }
+
+    .ok{
+        bottom: 30px;
+        right: 35px;
+        font-weight: 600;
+        font-size: 10px;
+        font-size: 20px;
+        }
+
+    .ok:hover{
+        background-color: #719dc7;
+    }
+
+
+    .fa-caret-left{
+        font-size: 55px;
+        bottom: 30px;
+         }
+
+     .contenedor{
+        background-image: url("../../utils/images/Frases/celuhorizontal.jpg");
+        background-size: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+    }
 }

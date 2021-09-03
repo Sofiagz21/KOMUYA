@@ -34,26 +34,23 @@
 
 .titulo{
     justify-content: flex-end;
-    padding-top: 10px;
     font-family: 'Londrina Solid', cursive;
     font-size: 60px;
 }
 
 
 .retos{
-    margin-left: 10%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 420px;
-}
-
-.retos_dos{
-    margin-left: 34%;
-    width: 80%;
-    align-items: center;
+    margin-left: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+}
+
+.retos_dos{
+    align-items: center;
+   display: flex;
+   margin-left: 75px;
+   justify-content: center;
 }
 
 .space{
@@ -64,17 +61,21 @@
     margin-bottom: 25px;
 }
 
+.container{
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
 .card{
     margin-left: 45%;
 } 
 
 .contentCards{
     margin-top: 0;
-    margin-left: 7%;
     padding: 10px;
     display: grid;
-    grid-template-columns: 50% 50% ;
-    grid-template-rows: 550px ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 420px ;
     align-items: center;
     margin-bottom: 8%;
 }

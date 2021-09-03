@@ -18,7 +18,7 @@
         margin-left: 0px;
         padding-top: 40px;
         font-family: 'Londrina Solid', cursive;
-        font-size: 25px;
+        font-size: 35px;
     }
     
     .space{
@@ -33,12 +33,12 @@
         margin-left: 0px;
         grid-template-columns: 1fr;
         grid-template-rows: 390px;
+        width: 100%;
     }
 
     .retos_dos{
-        margin-left: 0px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 390px;
+        justify-content: flex-start;
+        margin-left: 55px;
     }
 
     .contentCards {
@@ -67,7 +67,7 @@
     .contentCards{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 350px;
+        grid-template-rows: 1fr;
         margin-top: 0px;
         margin-left: 0%;
     }
@@ -123,8 +123,9 @@
     }
     
     .contentCards .card .content h3{
-        margin-left: 38%;
-        margin-top: 2px;
+       display: flex;
+       justify-content: center;
+       text-align: center;
         margin-bottom: 5px;
         font-size: 25px;
     }
@@ -139,8 +140,7 @@
 
 
 
-
-@media only screen and (min-width:640px) and (max-width:360px){
+@media only screen and (min-width:568px) and (max-width:768px){
 
     .contentCards .card{
         width: 0px;
@@ -150,13 +150,13 @@
         margin-left: 115px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 100px;
     
     }
 
     .titulo{
         margin-left: 25px;
-        padding-top: 40px;
+        margin-top: 0px;
         font-family: 'Londrina Solid', cursive;
         font-size: 40px;
     }
@@ -170,15 +170,16 @@
     }
 
     .retos{
-        margin-left: 115px;
-        grid-template-columns: 1fr;
+        margin-left: 0px;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 390px;
     }
 
     .retos_dos{
-        margin-left: 115px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 390px;
+        justify-content: center;
+        margin-right: 200px;
+        margin-left: 0px;
+        margin-top: 25px;
     }
 
     .contentCards {
@@ -186,8 +187,8 @@
         margin: 0;
         padding: 10px;
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(1, 550px);
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
         row-gap: 120px;
         align-items: center;
         margin-bottom: 8%;
@@ -207,7 +208,7 @@
     .contentCards{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 350px;
+        grid-template-rows: 1fr;
         margin-top: 0px;
         margin-left: 0%;
     }
@@ -263,7 +264,9 @@
     }
     
     .contentCards .card .content h3{
-        margin-left: 38%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
         margin-top: 2px;
         margin-bottom: 5px;
         font-size: 25px;
