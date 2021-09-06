@@ -17,6 +17,11 @@ import Frase2  from './pages/Frases/Frase2'
 import Frase3 from './pages/Frases/Frase3'
 import Frase4  from './pages/Frases/Frase4'
 import Frase5  from './pages/Frases/Frase5'
+import Feli1 from './components/Felicitaciones/Fel1'
+import Feli2 from './components/Felicitaciones/Fel2'
+import Feli3 from './components/Felicitaciones/Fel3'
+import Feli4 from './components/Felicitaciones/Fel4'
+import Feli5 from './components/Felicitaciones/Fel5'
 
 
 
@@ -37,6 +42,11 @@ function App() {
           <Route path="/Three" exact component={ChallengeThree}/>
           <Route path="/Four" exact component={ChallengeFour}/>
           <Route path="/Five" exact component={ChallengeFive}/>
+          <Route path="/Feli1" exact component={Feli1}/>
+          <Route path="/Feli2" exact component={Feli2}/>
+          <Route path="/Feli3" exact component={Feli3}/>
+          <Route path="/Feli4" exact component={Feli4}/>
+  
           </Switch>
         </Router>
     </div>
