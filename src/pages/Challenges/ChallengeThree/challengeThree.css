@@ -1,0 +1,154 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.title_conocerme{
+    margin-top: 25px;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.text_conocerme p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    text-align: center;
+    font-family:'Poppins', sans-serif ;
+}
+
+.burbujas{
+    margin-top: 30px;
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.burbujas p{
+    text-align: center;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 800;
+    font-size: 25px;
+    padding-top: 120px;
+}
+
+.bubbleOne{
+    margin-top: 15px;
+    margin-bottom: 98px;
+    height: 300px;
+    border-radius: 50%;
+    background-color:#FE4D9F;
+    width: 300px;
+}
+
+.bubbleOne:hover{
+    cursor: pointer;
+    background-color:#e4277f;
+}
+
+.bubbleSix:hover{
+    cursor: pointer;
+    background-color:#e4277f;
+}
+
+.bubbleTwo:hover{
+    cursor: pointer;
+    background-color: #d69928;
+}
+
+.bubbleFour:hover{
+    cursor: pointer;
+    background-color: #d69928;
+}
+
+.bubbleFive:hover{
+    cursor: pointer;
+    background-color:#ee5e6e;
+}
+
+.bubbleThree:hover{
+    cursor: pointer;
+    background-color: #127de2;
+}
+
+
+.bubbleTwo{
+    margin-top: 15px;
+    margin-bottom: 98px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #FECE76;
+    width: 300px;
+}
+
+.bubbleThree{
+    margin-top: 15px;
+    margin-bottom: 98px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #5A95CE;
+    width: 300px;
+}
+
+.bubbleFour{
+    margin-bottom: 98px;
+    height: 300px;
+    border-radius: 50%;
+    background-color:#FECE76;
+    width: 300px;
+}
+
+.bubbleFive{
+    margin-bottom: 98px;
+    height: 300px;
+    border-radius: 50%;
+    background-color:#FF7E8C;
+    width: 300px;
+}
+
+.bubbleSix{
+    margin-bottom: 98px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #FE4D9F;
+    width: 300px;
+}
+
+.enviar{
+   display: flex;
+   justify-content: flex-end;
+   margin-bottom: 25px;
+   background-color: #5A95CE;
+   color: #fff;
+   font-weight: 600;
+   padding: 14px 30px;
+   letter-spacing: 3px;
+   border: none;
+   font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+   text-decoration: none;
+}
+
+.boton{
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.enviar:hover{
+    background-color: #fff;
+    color: #000;
+}
