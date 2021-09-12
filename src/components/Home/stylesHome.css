@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-*{
+*{ 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
+
 
 .circle{
 display: flex;
@@ -35,13 +36,13 @@ display: flex;
 
   
 .logo{
-    margin: 65px 0 0 0;
+    margin: 90px 0 0 0;
     display: flex;
     justify-content: center;
 }
 
 .logo img{
-    width: 40%;
+    width: 60%;
 }
 
 .cajaIngresar{
@@ -50,7 +51,8 @@ display: flex;
 }
 
 .ingresar{
-    background-color: #5A95CE;
+   border-radius: 10px;
+   background-color: #5A95CE;
    display: flex;
    color: #fff;
    font-weight: 600;
@@ -58,7 +60,7 @@ display: flex;
    letter-spacing: 3px;
    border: none;
    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+   font-size: 30px;
    text-decoration: none;
 }
 

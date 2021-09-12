@@ -10,36 +10,36 @@ const challengeTwoContainer = () => {
             <ol>
             <div className="left">
             <li>
-                    <input className="list" type="text" name="nombre" required/>
+                    <input className="list" type="text" name="nombre" required autoComplete="off"/>
                 </li>
                 <li>
-                    <input className="list" type="text" name="nombre" required/>
+                    <input className="list" type="text" name="nombre" required autoComplete="off"/>
                 </li>
                 <li>
-                    <input className="list" type="text" name="nombre" required/>
+                    <input className="list" type="text" name="nombre" required autoComplete="off"/>
                 </li>
                 <li>
-                    <input className="list" type="text" name="nombre" required/>
+                    <input className="list" type="text" name="nombre" required autoComplete="off"/>
                 </li>
                 <li>
-                    <input className="list" type="text" name="nombre" required/>
+                    <input className="list" type="text" name="nombre" required autoComplete="off"/>
                 </li>
             </div>
             <div className="right">
             <li>
-                    <input className="list" type="text" name="nombre" required/>
+                    <input className="list" type="text" name="nombre" required autoComplete="off"/>
                 </li>
                 <li>
-                    <input className="list" type="text" name="nombre" required/>
+                    <input className="list" type="text" name="nombre" required autoComplete="off"/>
                 </li>
                 <li>
-                    <input className="list" type="text" name="nombre" required/>
+                    <input className="list" type="text" name="nombre" required autoComplete="off"/>
                 </li>
                 <li>
-                    <input className="list" type="text" name="nombre" required/>
+                    <input className="list" type="text" name="nombre" required autoComplete="off"/>
                 </li>
                 <li>
-                    <input className="list" type="text" name="nombre" required/>
+                    <input className="list" type="text" name="nombre" required autoComplete="off"/>
                 </li>
             </div>
         </ol>

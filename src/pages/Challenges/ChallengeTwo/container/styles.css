@@ -1,0 +1,55 @@
+/*Fuente Londrina*/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+/*font-family: 'Londrina Solid', cursive;*/
+
+
+/*Fuente Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Poppins:ital,wght@0,200;1,200&display=swap');
+/*font-family: 'Poppins', sans-serif*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.texto{
+    margin-top: 25px;
+}
+
+.text p{
+    font-size: 20px;
+    text-align: center;
+    font-family:'Poppins', sans-serif ;
+}
+
+.seleccionar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.title_persona_soy{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+#primerSigno,#segundoSigno{
+	margin-right: 105px;
+	margin-left: 110px;
+	font-family: "comic";
+	font-size: 35px;
+	padding: 5px;
+	width: 170px;
+	-webkit-box-shadow: 5px 6px 8px 3px #000000; 
+	box-shadow: 5px 6px 8px 3px #000000;
+}
+
+.seleccionar{
+	display: flex;
+	justify-content: center;
+}
