@@ -46,7 +46,7 @@ const challengeTwoContainer = () => {
                     <input className="list" type="text" name="nombre" required autoComplete="off"/>
                 </li>
             </div>
-            <div className="enviar">
+            <div className="enviarr">
             <Link to="/Feli2">
                 <button className="enviarsito">
                     Enviar
