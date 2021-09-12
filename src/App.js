@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './pages/Home'
 import Goals from './pages/Goals'
+
 import{
   BrowserRouter as Router,
   Switch,
@@ -22,7 +23,7 @@ import Feli2 from './components/Felicitaciones/Fel2'
 import Feli3 from './components/Felicitaciones/Fel3'
 import Feli4 from './components/Felicitaciones/Fel4'
 import Feli5 from './components/Felicitaciones/Fel5'
-
+import Exit from './components/Exit/containerExit'
 
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
           <Route path="/Feli2" exact component={Feli2}/>
           <Route path="/Feli3" exact component={Feli3}/>
           <Route path="/Feli4" exact component={Feli4}/>
-  
+          <Route path="/Exit" exact component={Exit}/>
           </Switch>
         </Router>
     </div>

@@ -22,7 +22,7 @@ class Frases1 extends Component{
                 <div className="contenedor">
                         <div className="cardFrase">
                             <div className="boxTitle">
-                                <h1 className="titleFrase">Frase del día.  <i class="fa fa-star" aria-hidden="true"></i></h1>
+                                <h1 className="titleFrase">Frase Komuya <i class="fa fa-star" aria-hidden="true"></i></h1>
                             </div>
                             <div className="boxText">
                                 <h3>

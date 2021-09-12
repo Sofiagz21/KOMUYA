@@ -10,7 +10,7 @@ import '../stylesHome.css';
 
 const Homecontainer = () => {
     return (
-        <div>
+        <div className="home_component">
             <div className="box">
                 <div className="circle">
                     <div className="circuloAmarillo">

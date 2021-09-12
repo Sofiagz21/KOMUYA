@@ -23,8 +23,10 @@ const Encabezado= () => {
                      </Link>
             </div>
             <div className="salir">
+            <Link to="/Exit">
                     <img src={Salir}/>
                     <p>Salir</p>
+            </Link>    
             </div>
         </div>
     )
