@@ -11,7 +11,7 @@ import '../stylesHome.css';
 const Homecontainer = () => {
     return (
         <div className="home_component">
-            <div className="box">
+            <div className="box_home">
                 <div className="circle">
                     <div className="circuloAmarillo">
                     <img src={circulo1} alt="" />

@@ -7,7 +7,6 @@
     text-decoration: none;
 }
 
-
 .circle{
 display: flex;
 }
@@ -36,13 +35,13 @@ display: flex;
 
   
 .logo{
-    margin: 90px 0 0 0;
+    margin: 30px 0 0 0;
     display: flex;
     justify-content: center;
 }
 
 .logo img{
-    width: 60%;
+    width: 40%;
 }
 
 .cajaIngresar{

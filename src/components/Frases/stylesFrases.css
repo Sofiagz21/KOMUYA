@@ -29,7 +29,7 @@
 .cardFrase{
     display:flex;
     flex-direction: column;
-    background: rgba(250, 240, 206, 0.8);
+    background: #ff7e8d8a;
     margin: 90px;
     border-radius: 50px;
     width: 90%;
