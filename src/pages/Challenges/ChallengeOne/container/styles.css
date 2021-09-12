@@ -26,9 +26,11 @@
 }
 
 .text p{
+    margin-top: 45px;
     font-size: 20px;
     text-align: center;
     font-family:'Poppins', sans-serif ;
+    margin-bottom: 25px;
 }
 
 .seleccionar{
@@ -38,23 +40,61 @@
 }
 
 .title_persona_soy{
+    margin-top: 50px;
     font-family: 'Londrina Solid', cursive;
     font-size: 35px;
     text-align: center;
 }
 
-#primerSigno,#segundoSigno{
+#palabraOne,#palabraTwo{
 	margin-right: 105px;
 	margin-left: 110px;
-	font-family: "comic";
-	font-size: 35px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
 	padding: 5px;
 	width: 170px;
-	-webkit-box-shadow: 5px 6px 8px 3px #000000; 
-	box-shadow: 5px 6px 8px 3px #000000;
 }
 
 .seleccionar{
 	display: flex;
 	justify-content: center;
 }
+
+.question{
+    display: flex;
+    justify-content: center;
+}
+
+.question img{
+    margin-top: 40px;
+    width: 40px;
+}
+
+.options{
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+
+}
+
+.answer{
+display: flex;
+justify-content: center;
+}
+
+.result{
+justify-content: center;
+margin: 50px 160px 155px 160px;
+border-radius: 10px;
+height:400px;
+width: 700px;
+background: rgb(196,196,196);
+border: 4px solid #5A95CE;
+background: rgb(196,196,196);
+background: linear-gradient(304deg, rgba(255, 254, 254, 0.393) 25%, rgba(26, 136, 170, 0.758) 100%);
+}
+
+@media (max-width:420px){
+    
+    }
