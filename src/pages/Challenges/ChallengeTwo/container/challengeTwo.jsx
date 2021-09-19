@@ -9,7 +9,7 @@ const ChallengeTwo= () => {
              <Encabezado/>
              <div className="containerChallengeTwo">
                 <div className="title_Two">
-                <h1>El reto del día  es conocerte es conocerte, nombra 10 cosas que te gusten de ti <i class="fa fa-check" aria-hidden="true"></i></h1>
+                <h1>El reto del día  es conocerte es conocerte, nombra 10 cosas que te gusten de ti. <i class="fa fa-check" aria-hidden="true"></i></h1>
                 </div>
             <div className="boxTwo">
                 <form action="">
