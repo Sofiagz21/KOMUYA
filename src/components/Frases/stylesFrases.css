@@ -86,7 +86,7 @@ background-color: #5A95CE;
     .cardFrase{
         margin:20px;
         height: 570px;
-        background: rgba(250, 240, 206, 0.8);
+        background: #ff7e8d8a;
         border-radius: 50px;
     }
 
@@ -141,7 +141,7 @@ background-color: #5A95CE;
     .cardFrase{
         margin:30px;
         height: 310px;
-        background: rgba(250, 240, 206, 0.8);
+        background: #ff7e8d8a;
         border-radius: 50px;
     }
 
