@@ -14,17 +14,16 @@ const ChallengeTwo= () => {
             <div className="boxTwo">
                 <form action="">
                     <ol>
-                        <li> <input type="text" name="nombre" required autoComplete="off"/></li>
-                        <li> <input type="text" name="nombre" required autoComplete="off"/></li>
-                        <li> <input type="text" name="nombre" required autoComplete="off"/></li>
-                        <li> <input type="text" name="nombre" required autoComplete="off"/></li>
-                        <li> <input type="text" name="nombre" required autoComplete="off"/></li>
-                        <li> <input type="text" name="nombre" required autoComplete="off"/></li>
-                        <li> <input type="text" name="nombre" required autoComplete="off"/></li>
-                        <li> <input type="text" name="nombre" required autoComplete="off"/></li>
-                        <li> <input type="text" name="nombre" required autoComplete="off"/></li>
-                        <li> <input type="text" name="nombre" required autoComplete="off"/></li>
-                        <li> <input type="text" name="nombre" required autoComplete="off"/></li>
+                        <li className="list"> <input type="text" name="nombre" required autoComplete="off"/></li>
+                        <li className="list"> <input type="text" name="nombre" required autoComplete="off"/></li>
+                        <li className="list"> <input type="text" name="nombre" required autoComplete="off"/></li>
+                        <li className="list"> <input type="text" name="nombre" required autoComplete="off"/></li>
+                        <li className="list"> <input type="text" name="nombre" required autoComplete="off"/></li>
+                        <li className="list"> <input type="text" name="nombre" required autoComplete="off"/></li>
+                        <li className="list"> <input type="text" name="nombre" required autoComplete="off"/></li>
+                        <li className="list"> <input type="text" name="nombre" required autoComplete="off"/></li>
+                        <li className="list"> <input type="text" name="nombre" required autoComplete="off"/></li>
+                        <li className="list"> <input type="text" name="nombre" required autoComplete="off"/></li>
                     </ol>
                 </form>
             </div>

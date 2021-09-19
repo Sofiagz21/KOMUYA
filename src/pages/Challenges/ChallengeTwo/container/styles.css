@@ -30,7 +30,9 @@
 .boxTwo{
     padding: 35px;
     font-family: 'Poppins', sans-serif;
-    display: grid;
+    display: flex;
+   justify-content: center;
+    align-items: center;
 }
 
 .boxTwo ol{
@@ -39,4 +41,30 @@
     grid-template-rows: repeat(5,1fr);
     align-items: center;
     margin: 20px;
+    row-gap: 30px;
+    column-gap: 250px;
+}
+
+.list{
+    font-size: 20px;
+    border: none;
+    padding: 3px;
+    
+    font-weight: 50px;
+    resize: none;
+    outline: none;
+    
+}
+
+.list input{
+    padding: 8px;
+    resize: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+
+    
+    
 }
