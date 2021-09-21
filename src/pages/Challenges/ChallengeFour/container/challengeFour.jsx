@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react'
 import Encabezado from '../../../../components/Encabezado/container/encabezado'
 import '../container/styles.css'
 import  ImagenFour from '../../../../utils/images/Retos/reto_fourth/queharias.png'
