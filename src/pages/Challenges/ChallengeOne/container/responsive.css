@@ -1,15 +1,73 @@
 @media (max-width:420px){
 
-    .texto p{
-        font-size: 15px;
-        margin-bottom: 15px;
+    .title_persona_soy p{
+        font-size: 28px;
+        margin:  15px 10px;
     }
-}
+
+    .text p{
+        font-size: 18px;
+        margin: 18px 10px;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .options{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        row-gap: 15px;
+    }
+
+    .question img{
+        margin-top: 50px;
+        width: 60px;
+    }
+
+    #palabraOne, #palabraTwo {
+        margin-right: 0px;
+        margin-left: 0px;
+        font-size: 19px;
+    }
+
+    .result{
+        margin: 50px;
+    }
+ }
+   
 
 @media (min-width:568px) and (max-width:768px) {
 
-    .texto p{
-        font-size: 10px;
-        margin-bottom: 15px;
+    .title_persona_soy p{
+        font-size: 28px;
+        margin:  15px 10px;
+    }
+
+    .text p{
+        font-size: 18px;
+        margin: 18px 10px;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .options{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1,1fr);
+        column-gap: 25px;
+    }
+
+    .question img{
+        margin-top: 50px;
+        width: 60px;
+    }
+
+    #palabraOne, #palabraTwo {
+        margin-right: 0px;
+        margin-left: 0px;
+        font-size: 19px;
+    }
+
+    .result{
+        margin: 50px;
+        height: 300px;
     }
 }

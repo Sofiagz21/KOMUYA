@@ -7,20 +7,29 @@
     }
 
     .top{
-        margin-left: 70px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-    
+        display: flex;
+        grid-template-rows: none;
+        grid-template-columns: none;
+        margin-left: 15px;
+        column-gap: 15px;
     }
 
+   .log{
+        height: 20px;
+   }
+
     .titulo{
-        margin-left: 0px;
-        padding-top: 40px;
+        margin-left: 10px;
+        text-align: center;
         font-family: 'Londrina Solid', cursive;
-        font-size: 35px;
+        font-size: 32px;
     }
-    
+    .back img{
+        width: 30px;
+        height: 30px;
+        display: flex;
+       margin-left: 40px;
+    }
     .space{
         margin-left: 0px;
         display: flex;
@@ -67,7 +76,7 @@
     .contentCards{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 399px;
         margin-top: 0px;
         margin-left: 0%;
     }
@@ -147,12 +156,27 @@
     }
 
     .top{
-        margin-left: 115px;
+        margin-left: 15px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
     
     }
+
+    .titulo{
+        margin-left: 10px;
+        text-align: center;
+        font-family: 'Londrina Solid', cursive;
+        font-size: 32px;
+    }
+    
+    .back img{
+        width: 30px;
+        height: 30px;
+        display: flex;
+       margin-left: 120px;
+    }
+
 
     .titulo{
         margin-left: 25px;
@@ -172,7 +196,7 @@
     .retos{
         margin-left: 0px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 390px;
+        grid-template-rows: px;
     }
 
     .retos_dos{
@@ -208,7 +232,7 @@
     .contentCards{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 400px;
         margin-top: 0px;
         margin-left: 0%;
     }

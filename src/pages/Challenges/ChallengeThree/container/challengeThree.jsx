@@ -7,10 +7,10 @@ const ChallengeThree= () => {
         <div className="container">
              <Encabezado/>
              <div className="title_conocerme">
-                    <p>¿Que tipo de persona soy?</p>
+                    <p>¿Qué tipo de persona soy?</p>
              </div>
              <div className="text_conocerme">
-                    <p>El reto del dia de hoy es conocerte, identifica 4 cosas las que deberias mejorar.</p>
+                    <p>El reto del día de hoy es conocerte, identifica 4 cosas las que deberías mejorar.</p>
                 </div>
             <div className="burbujas">
                 <div className="bubbleOne" ><p>Pereza</p></div>
