@@ -63,8 +63,6 @@ const Goals = () => {
             </div>
             </div>
                 </div>
-        </div>
-            <div className="retos">
                 <div className="Miercoles">
                 <div class="contentCards">
                 <div class="card">
@@ -82,6 +80,8 @@ const Goals = () => {
                 </div>
                 </div>
                 </div>
+                </div>
+                <div className="retos_dos">
                 <div className="Jueves">
                 <div class="contentCards">
                 <div class="card">
@@ -99,8 +99,6 @@ const Goals = () => {
             </div>
             </div>
             </div>
-                </div>
-            <div className="retos_dos">
                 <div className="Viernes">
                 <div class="contentCards">
                 <div class="card">

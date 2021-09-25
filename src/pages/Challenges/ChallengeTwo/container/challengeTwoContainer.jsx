@@ -6,7 +6,8 @@ const challengeTwoContainer = () => {
     return (
         <div className="boxTwo">
             <div className="containerC">
-            <h1>El reto del día  es conocerte es conocerte, nombra 10 cosas que te gusten de ti <i class="fa fa-check" aria-hidden="true"></i></h1>
+            <h1>El reto del día es conocerte, nombra 10 cosas que te gusten de ti <i class="fa fa-check" aria-hidden="true"></i></h1>
+            <h1>Ejemplo: mi sonrisa </h1>
             </div>
 
             <div className="boxx">

@@ -9,7 +9,7 @@ const ChallengeOne= () => {
         <div className="container">
             <Encabezado/>
             <div className="title_persona_soy">
-                    <p>¿Que tipo de persona soy?</p>
+                    <p>¿Qué habilidades tienes?</p>
                 </div>
                 <div className="text">
                     <p>El reto del dia de hoy es conocerte, selecciona dos palabras que te identifique y reconoce que tipo de persona eres.</p>
