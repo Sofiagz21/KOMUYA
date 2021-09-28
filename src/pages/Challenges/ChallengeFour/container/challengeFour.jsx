@@ -13,11 +13,12 @@ const ChallengeFour= () => {
         <div className="container">
              <Encabezado/>
         <div className="titleFour">
-        <h1>El reto del día de hoy es conocerte. ¿Qué harías en esta situación? Selecciona el número que te parezca correcto.<i class="fa fa-check" aria-hidden="true"></i> </h1>
+        <h1>El reto del día de hoy es conocerte. ¿Qué harías en esta situación?<i class="fa fa-check" aria-hidden="true"></i> </h1>
         </div>
         <div className="imageFour">
             <img src={ImagenFour} alt="" />
         </div>
+        <h1 className="subtitule"> Selecciona un número de acuerdo a la imagén. </h1>
         <div className="options">
            <Modal1/>
            <Modal2/>
