@@ -10,7 +10,7 @@ import{
 } from "react-router-dom";
 import ChallengeOne from './pages/Challenges/ChallengeOne/container/challengeOne';
 import ChallengeTwo from './pages/Challenges/ChallengeTwo/container/challengeTwo';
-import ChallengeThree from './pages/Challenges//ChallengeThree/container/challengeThree';
+import ChallengeThree from './pages/Challenges/ChallengeThree/container/challengeThree';
 import ChallengeFour from './pages/Challenges/ChallengeFour/container/challengeFour';
 import ChallengeFive from './pages/Challenges/ChallengeFive/container/challengeFive';
 import Frase1  from './pages/Frases/Frase1'

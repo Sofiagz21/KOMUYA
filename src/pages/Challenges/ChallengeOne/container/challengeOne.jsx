@@ -10,6 +10,7 @@ const ChallengeOne= () => {
         <div className="container">
             <Encabezado/>
             <div className="title_persona_soy">
+                    <p>¿Qué habilidades tienes?</p>
                     <p>¿Qué tipo de persona soy?</p>
                 </div>
                 <div className="text">
