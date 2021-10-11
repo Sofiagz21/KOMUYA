@@ -27,7 +27,8 @@ const Goals = () => {
             </div>
             </div>
             <div className="container">
-              <div className="retos">
+                <div className="containerGoals">
+                <div className="retos">
                 <div className="Lunes">
                 <div class="contentCards">
                 <div class="card">
@@ -118,6 +119,8 @@ const Goals = () => {
                 </div>
                 </div>
             </div>
+                </div>
+              
         </div>
     )
 }

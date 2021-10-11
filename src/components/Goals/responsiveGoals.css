@@ -7,11 +7,11 @@
     }
 
     .top{
-        display: flex;
-        grid-template-rows: none;
-        grid-template-columns: none;
+        display: grid;
+       grid-template-columns: repeat(2,100px);
+       grid-template-rows: repeat(2,1fr);
         margin-left: 15px;
-        column-gap: 15px;
+        column-gap: 5px;
     }
 
    .log{
@@ -41,19 +41,24 @@
     .retos{
         margin-left: 0px;
         grid-template-columns: 1fr;
-        grid-template-rows: 390px;
+        grid-template-rows: 350px;
         width: 100%;
     }
 
     .retos_dos{
+        grid-template-columns: repeat(1,1fr);
         justify-content: flex-start;
-        margin-left: 55px;
+        
+    }
+
+    .Jueves{
+        margin-left: 0px;
     }
 
     .contentCards {
         margin-top: 0;
         margin: 0;
-        padding: 10px;
+        padding: 5px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(1, 550px);
@@ -69,25 +74,26 @@
     }
     
     .card{
-     margin-top: 5%;
+     margin-top: 0px;
+     margin-left: 15%
     }
     
     
     .contentCards{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 399px;
+        grid-template-rows: 380px;
         margin-top: 0px;
-        margin-left: 0%;
+        margin-left: 30px;
     }
     
     .contentCards .card{
-    
+        margin-top: 0px;
         height: auto;
         flex-direction: column;
         background: transparent;
         box-shadow: none;
-        margin: 18%;
+        margin-left: 35px;
     }
     
     .contentCards .card .imgBx{
@@ -97,15 +103,16 @@
     }
     
     .contentCards .card .imgBx img {
-        max-width: 100px;
+        max-width: 50px;
         transition: 0.5s ease-in-out;
     } 
     
     .contentCards .card .imgBx, 
     .contentCards .card:hover .imgBx{
-         width:180px;
-        height: 120px;
+         width:100px;
+        height: 100px;
         top: 80px;
+        margin-left: 25px;
     }
     
     .contentCards .card:hover .imgBx{
@@ -114,12 +121,12 @@
     
     .card .imgBx img ,
     .card:hover .imgBx img{
-         max-width:80px;
+         max-width:90px;
     }
     
     .contentCards .card .content{
         position: relative;
-        width: 230px;
+        width: 200px;
         background: #ffff;
         box-shadow: none;
         border-radius: 20px;
@@ -155,6 +162,7 @@
         width: 0px;
     }
 
+    
     .top{
         margin-left: 15px;
         display: grid;
@@ -182,7 +190,7 @@
         margin-left: 25px;
         margin-top: 0px;
         font-family: 'Londrina Solid', cursive;
-        font-size: 40px;
+        font-size: 30px;
     }
     
     .space{
@@ -195,15 +203,14 @@
 
     .retos{
         margin-left: 0px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: px;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 5px;
     }
 
     .retos_dos{
         justify-content: center;
         margin-right: 200px;
         margin-left: 0px;
-        margin-top: 25px;
     }
 
     .contentCards {
@@ -234,7 +241,8 @@
         grid-template-columns: 1fr;
         grid-template-rows: 400px;
         margin-top: 0px;
-        margin-left: 0%;
+        margin-left: 0px;
+        top: 55px;
     }
     
     .contentCards .card{
@@ -245,6 +253,8 @@
         box-shadow: none;
         margin: 18%;
     }
+
+   
     
     .contentCards .card .imgBx{
         left: 65px;
@@ -253,14 +263,14 @@
     }
     
     .contentCards .card .imgBx img {
-        max-width: 100px;
+        max-width: 70px;
         transition: 0.5s ease-in-out;
     } 
     
     .contentCards .card .imgBx, 
     .contentCards .card:hover .imgBx{
-         width:180px;
-        height: 120px;
+         width:100px;
+        height: 100px;
         top: 80px;
     }
     
@@ -275,7 +285,7 @@
     
     .contentCards .card .content{
         position: relative;
-        width: 230px;
+        width:150px;
         background: #ffff;
         box-shadow: none;
         border-radius: 20px;
@@ -293,12 +303,18 @@
         text-align: center;
         margin-top: 2px;
         margin-bottom: 5px;
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .contentCards .card .content a{
         margin-top: 2px;
         margin-bottom: 5px;
+        margin-right: 25px;
         font-size: 12px;
     }
+
+    .regresar_lunes{
+        padding: 10px;
+        font-size: 15px;
+     }
 }

@@ -13,12 +13,18 @@ const ChallengeThree= () => {
                     <p>El reto del día de hoy es conocerte, identifica 4 cosas las que deberías mejorar.</p>
                 </div>
             <div className="burbujas">
-                <div className="bubbleOne" ><p>Pereza</p></div>
-                <div className="bubbleTwo"><p>Indisciplina</p></div>
-                <div className="bubbleThree"><p>Autonomía</p></div>
-                <div className="bubbleFour"><p>Dispersión</p></div>
-                <div className="bubbleFive"><p>Irresponsabilidad</p></div>
-                <div className="bubbleSix"><p>Procrastinación</p></div>
+                <div className="bubbleOne" ><p><input type="checkbox" /> Pereza</p>
+                </div>
+                <div className="bubbleTwo"><p><input type="checkbox" /> Indisciplina</p>
+                </div>
+                <div className="bubbleThree"><p><input type="checkbox"/> Autonomía</p>
+                </div>
+                <div className="bubbleFour"><p><input type="checkbox" />Dispersión</p>
+                </div>
+                <div className="bubbleFive"><p><input type="checkbox" />Irresponsabilidad</p>
+                </div>
+                <div className="bubbleSix"><p><input type="checkbox" />Procrastinación</p>
+                </div>
             </div>
             <Link to="/Feli3">
                     <div className="boton">
