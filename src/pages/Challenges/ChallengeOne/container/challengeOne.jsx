@@ -5,29 +5,28 @@ import '../container/styles.css'
 import '../container/responsive.css'
 import {Link} from "react-router-dom"
 
-let seleccionar = document.querySelector('select');
-let parrafo = document.querySelector('h4');
 
-//seleccionar.addEventListener('change', establecerClima);
-
+const ChallengeOne= () => {
 function establecerClima() {
+  let seleccionar = document.querySelector('select');
   let eleccion = seleccionar.value;
   if (eleccion === 'escribir') {
-    parrafo.textContent = 'Tu habilidad es la intelectualidad. Posees gusto por la actividad intelectual. Profundizas. Excavaz y te gusta expresar lo que sientes de manera literaria.';
+    document.getElementById('resultadito').innerHTML='Tu habilidad es la intelectualidad. Posees gusto por la actividad intelectual. Profundizas. Excavaz y te gusta expresar lo que sientes de manera literaria.';
   } else if (eleccion === 'resolver') {
-    parrafo.textContent = 'Tu habilidad es ser analítico/a y objetivo/a. Abordas la vida de manera racional, amas los hechos, quieres tener pruebas de que se avanza, eres una persona lógica y, a veces, algo distanciada de tus emociones.';
+    document.getElementById('resultadito').innerHTML='Tu habilidad es ser analítico/a y objetivo/a. Abordas la vida de manera racional, amas los hechos, quieres tener pruebas de que se avanza, eres una persona lógica y, a veces, algo distanciada de tus emociones.';
   } else if (eleccion === 'liderar') {
-    parrafo.textContent = 'Tu habilidad es ser lider, asumes las situaciones a tu cargo. Ordenas, das directivas. La confrontación no es un problema. Por el contrario, es el comienzo de la resolución de un problema.';
+    document.getElementById('resultadito').innerHTML='Tu habilidad es ser lider, asumes las situaciones a tu cargo. Ordenas, das directivas. La confrontación no es un problema. Por el contrario, es el comienzo de la resolución de un problema.';
   } else if (eleccion === 'dibujar') {
-    parrafo.textContent = 'Tu habilidad es la creatividad, juegas, manejas con destreza la generación de ideas. Baraja las ideas: qué pasaría si, y si después, y si. Abordas el mundo con nuevos ojos.';
+    document.getElementById('resultadito').innerHTML= 'Tu habilidad es la creatividad, juegas, manejas con destreza la generación de ideas. Baraja las ideas: qué pasaría si, y si después, y si. Abordas el mundo con nuevos ojos.';
   } else if (eleccion === 'deporte') {
-    parrafo.textContent = 'Tu habilidad es la competición. Posees el talento de la persona que es consciente del nivel de competencia de los demás. Tu incentivo es ser el/la mejor. Necesitas a los demás para competir. Es la energía que necesita para motivarte.';
+    document.getElementById('resultadito').innerHTML='Tu habilidad es la competición. Posees el talento de la persona que es consciente del nivel de competencia de los demás. Tu incentivo es ser el/la mejor. Necesitas a los demás para competir. Es la energía que necesita para motivarte.';
   } else {
-    parrafo.textContent = '';
+    document.getElementById('resultadito').innerHTML= '';
   }
 }
 
-const ChallengeOne= () => {
+console.log("respuesta", establecerClima)
+
     return (
         <div className="container">
             <Encabezado/>
@@ -53,12 +52,15 @@ const ChallengeOne= () => {
 
                     </div>
                     <div className="question">
-                     <img src={Question}/>
+
+                    <button className="buttonTwoChallenge" onClick={establecerClima}>  <img src={Question}/>
+                    </button>
+                     {/*<img src={Question} type="submit" onClick={() => establecerClima()} />*/}
                     </div>
 
                     <div className="answer">
                         <div class="result">
-                        <h4 className="texting"></h4>
+                        <h4 className="texting" id='resultadito'></h4>
                         </div>
                     </div>
                     <Link to="/Feli1">
