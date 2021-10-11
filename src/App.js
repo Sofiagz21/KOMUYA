@@ -47,6 +47,7 @@ function App() {
           <Route path="/Feli2" exact component={Feli2}/>
           <Route path="/Feli3" exact component={Feli3}/>
           <Route path="/Feli4" exact component={Feli4}/>
+          <Route path="/Feli5" exact component={Feli5}/>
           <Route path="/Exit" exact component={Exit}/>
           </Switch>
         </Router>
