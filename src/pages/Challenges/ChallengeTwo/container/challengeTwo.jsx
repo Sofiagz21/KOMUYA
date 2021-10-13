@@ -27,18 +27,11 @@ const ChallengeTwo= () => {
                     </ol>
                 </form>
             </div>
-            <div className="enviarTwo">
-                <Link to="/Feli2">
-                    <button className="sendTwo">
-                        Enviar
-                    </button>
-                </Link>
-            </div>
-
-
-
-
-
+            <Link to="/Feli1">
+                    <div className="boton">
+                     <input className= "enviar" type="submit" value="Enviar"/>
+                     </div>
+            </Link>
              </div>
         </div>
     )

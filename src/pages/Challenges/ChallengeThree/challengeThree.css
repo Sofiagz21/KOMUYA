@@ -46,12 +46,54 @@
     grid-template-rows: 1fr 1fr;
 }
 
+#resultadito{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:'Poppins', sans-serif ;
+}
+
+#resultadito2{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:'Poppins', sans-serif ;
+}
+
+#resultadito3{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:'Poppins', sans-serif ;
+}
+
+#resultadito4{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:'Poppins', sans-serif ;
+}
+
+#resultadito5{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:'Poppins', sans-serif ;
+}
+
+#resultadito6{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:'Poppins', sans-serif ;
+}
+
 .burbujas p{
     text-align: center;
     font-family:'Poppins', sans-serif ;
     font-weight: 800;
     font-size: 25px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .bubbleOne{
@@ -198,11 +240,43 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        font-size: 20px;
-        padding-top: 90px;
+        font-size: 15px;
+        padding-top: 20px;
     }
     .boton{
-        margin-top: 35px;
+        margin-top: 45px;
+    }
+
+    #resultadito{
+        font-size: 12px;
+        margin-top: 10px;
+
+    }
+
+    #resultadito2{
+        font-size: 12px;
+        margin-top: 10px;
+
+    }
+    
+    #resultadito3{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    #resultadito4{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    #resultadito5{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    #resultadito6{
+        font-size: 12px;
+        margin-top: 10px;
     }
  }
    
@@ -229,6 +303,7 @@
         grid-template-rows: repeat(3, 1fr);
     }
 
+    
     .bubbleOne,.bubbleTwo,.bubbleThree, .bubbleFour, .bubbleFive, .bubbleSix{
         margin-top: 15px;
         margin-bottom: 28px;
@@ -241,11 +316,41 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        font-size: 20px;
-        padding-top: 90px;
+        font-size: 15px;
+        padding-top: 30px;
     }
+
     .boton{
         margin-top: 45px;
     }
+
+    #resultadito{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    #resultadito2{
+        font-size: 12px;
+        margin-top: 10px;
+    }
     
+    #resultadito3{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    #resultadito4{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    #resultadito5{
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    #resultadito6{
+        font-size: 12px;
+        margin-top: 10px;
+    }
 }

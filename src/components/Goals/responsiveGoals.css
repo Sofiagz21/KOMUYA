@@ -209,7 +209,7 @@
 
     .retos_dos{
         justify-content: center;
-        margin-right: 200px;
+        margin-right: 0px;
         margin-left: 0px;
     }
 
@@ -317,4 +317,9 @@
         padding: 10px;
         font-size: 15px;
      }
+
+
+    .Jueves{
+        margin-left: 0px;
+    }
 }
