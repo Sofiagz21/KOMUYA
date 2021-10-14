@@ -95,12 +95,10 @@
   margin: 15px 0px 8px 0px;
   }
 
-
 .modal-card1 p, .modal-card2 p, .modal-card3 p, .modal-card4 p{
   margin: 15px 0px 10px 0px;
   font-size: 20px;
 }
-
 
 .ok4{
   background-color: #F5003C;
@@ -125,7 +123,6 @@
 .modal-card4 .ok4{
   margin-top: 35px;
 }
-
 
 .fa-star {
   margin-left: 8px;
@@ -164,7 +161,8 @@
 }
 
 
-@media (max-width:420px){
+@media only screen and (max-width: 420px){
+  
   .titleFour{
     text-align: justify;
     padding: 20px;
@@ -193,13 +191,13 @@
     font-size: 25px;
   }
 
-  .modal-card1, .modal-card2, .modal-card3, .modal-card4{
+  .modal-card1, .modal-card2, .modal-card3, .modal-card4 {
     margin-top: 50px;
-    width: 300px;
+    width: 120px;
     padding: 15px;
     height: 500px;
   }
-
+  
   h4{
     font-size: 20px;
     margin: 11px 0px 5px 0px;
@@ -210,11 +208,9 @@
     font-size: 15px;
   }
 
-
-  
 }
 
-@media (min-width:568px) and (max-width:768px){
+@media only screen and (min-width:568px) and (max-width:768px){
   .titleFour{
     text-align: justify;
     padding: 10px;
@@ -259,7 +255,6 @@
     margin: 10px 0px 5px 0px;
     font-size: 15px;
   }
-
 
   .modal-card3 .ok4{
     margin-top: 35px;

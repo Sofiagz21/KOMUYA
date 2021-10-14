@@ -169,3 +169,265 @@
     font-size: 35px;
     text-align: center;
   }
+
+
+
+  @media only screen and (max-width: 420px){
+  
+    .titleFour{
+      text-align: justify;
+      padding: 20px;
+      font-size: 10px;
+    }
+  
+    .imageFour img{
+      margin-top: 10px;
+      width: 300px;
+    }
+  
+    .modal-background{
+      height: 100%;
+    }
+  
+    .options{
+      margin-left: 10px;
+      margin-right: 10px;
+      align-items: center;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
+    }
+  
+    .button{
+      padding: 10px;
+      font-size: 25px;
+    }
+  
+    .modal-card1, .modal-card2, .modal-card3, .modal-card4 {
+      margin-top: 50px;
+      width: 300px;
+      padding: 15px;
+      height: 500px;
+    }
+    
+    h4{
+      font-size: 20px;
+      margin: 11px 0px 5px 0px;
+    }
+  
+    .modal-card1 p, .modal-card2 p, .modal-card3 p, .modal-card4 p{
+      margin: 10px 0px 5px 0px;
+      font-size: 15px;
+    }
+
+    .topp p{
+      font-size: 18px;
+      margin: 5px 10px;
+      text-align: justify;
+    }
+
+    .body {
+      padding-top: 10px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+  }
+
+  .abajo {
+    height: 20px;
+}
+
+
+.abajo p{
+  font-size: 25px;
+}
+  .seleccionado{
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    align-items: center;
+  }
+
+  .buttonFiveOne {
+    height: 200px;
+    width: 200px;
+    color: #FFF;
+    border: none;
+    display: block;
+    margin: 3px auto;
+    font-size: 35px;
+    align-items: center;
+}
+
+
+.buttonFiveOne img {
+  width: 180px;
+  height: 180px;
+}
+.buttonFiveTwo {
+  height: 200px;
+    width: 200px;
+    color: #FFF;
+    border: none;
+    display: block;
+    margin: 3px auto;
+    font-size: 35px;
+    align-items: center;
+}
+
+.buttonFiveTwo img {
+  width: 180px;
+  height: 180px;
+}
+
+.buttonFiveThree {
+  height: 200px;
+  width: 200px;
+  color: #FFF;
+  border: none;
+  display: block;
+  margin: 3px auto;
+  font-size: 35px;
+  align-items: center;
+}
+
+
+.buttonFiveThree img {
+  width: 180px;
+  height: 180px;
+}
+  }
+  
+  @media only screen and (min-width:568px) and (max-width:768px){
+    .titleFour{
+      text-align: justify;
+      padding: 10px;
+      font-size: 8px;
+    }
+  
+    .imageFour img{
+      margin-top: 10px;
+      width: 200px;
+    }
+  
+    .modal-background{
+      height: 100%;
+    }
+  
+    .options{
+      margin-top: 39px;
+      margin-left: 10px;
+      margin-right: 10px;
+      align-items: center;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(1,1fr);
+    }
+  
+    .button{
+      padding: 10px;
+      font-size: 20px;
+    }
+  
+    .modal-card1, .modal-card2, .modal-card3, .modal-card4{
+      margin-top: 20px;
+      width: 600px;
+      height: 300px;
+    }
+  
+    h4{
+      font-size: 20px;
+      margin: 11px 0px 5px 0px;
+    }
+  
+    .modal-card1 p, .modal-card2 p, .modal-card3 p, .modal-card4 p{
+      margin: 10px 0px 5px 0px;
+      font-size: 15px;
+    }
+  
+    .modal-card3 .ok4{
+      margin-top: 35px;
+    }
+    
+    .modal-card4 .ok4{
+      margin-top: 25px;
+    }
+
+
+    .topp p{
+      font-size: 18px;
+      margin: 5px 10px;
+      text-align: justify;
+    }
+
+    .body {
+      padding-top: 10px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+  }
+
+  .abajo {
+    height: 20px;
+}
+
+
+.abajo p{
+  font-size: 25px;
+}
+  .seleccionado{
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    align-items: center;
+  }
+
+  .buttonFiveOne {
+    height: 200px;
+    width: 200px;
+    color: #FFF;
+    border: none;
+    display: block;
+    margin: 3px auto;
+    font-size: 35px;
+    align-items: center;
+}
+
+
+.buttonFiveOne img {
+  width: 180px;
+  height: 180px;
+}
+.buttonFiveTwo {
+  height: 200px;
+    width: 200px;
+    color: #FFF;
+    border: none;
+    display: block;
+    margin: 3px auto;
+    font-size: 35px;
+    align-items: center;
+}
+
+.buttonFiveTwo img {
+  width: 180px;
+  height: 180px;
+}
+
+.buttonFiveThree {
+  height: 200px;
+  width: 200px;
+  color: #FFF;
+  border: none;
+  display: block;
+  margin: 3px auto;
+  font-size: 35px;
+  align-items: center;
+}
+
+
+.buttonFiveThree img {
+  width: 180px;
+  height: 180px;
+}
+  }
