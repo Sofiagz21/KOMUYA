@@ -72,3 +72,40 @@
        text-decoration: none;
        cursor: pointer;
 }
+
+
+@media only screen and (max-width: 420px){
+    
+    .exitContainer{
+        padding-top: 100px;
+    }
+
+    .boxExit {
+        margin: 10px 15px 0px 15px;
+        justify-content: center;
+        border: 5px solid #FECE76;
+        height: 350px;
+        width: 250px;
+        align-items: center;
+    }
+
+    .buttonsExit {
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 1fr;
+        margin-right: 200px;
+    }
+
+    .bExit{
+        display: flex;
+        justify-content: center;
+    }
+  
+}
+  
+@media only screen and (min-width:568px) and (max-width:768px){
+    
+}

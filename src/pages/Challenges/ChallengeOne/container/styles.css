@@ -26,8 +26,13 @@
     margin-top: 25px;
 }
 
-.text p{
+.text {
     margin-top: 45px;
+}
+
+
+.text p{
+    margin-top: 15px;
     font-size: 20px;
     text-align: center;
     font-family:'Poppins', sans-serif ;
@@ -111,9 +116,9 @@ justify-content: center;
 
 .result{
 justify-content: center;
-margin: 10px 160px 155px 160px;
+margin: 20px 160px 55px 160px;
 border-radius: 10px;
-height:320px;
+height:250px;
 width: 700px;
 background: rgb(196,196,196);
 border: 4px solid #5A95CE;

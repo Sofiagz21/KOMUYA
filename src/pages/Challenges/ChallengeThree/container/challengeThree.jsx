@@ -51,14 +51,15 @@ const ChallengeThree= () => {
              </div>
              <div className="text_conocerme">
                     <p>El reto del día de hoy es conocerte, identifica 4 cosas las que deberías mejorar.</p>
+                    <p>Para identificar en lo que debes mejorar, selecciona 4 de los círculos que se encuentran en la parte de abajo</p>
                 </div>
             <div className="burbujas">
                 <button className="buttonTwoChallenge" onClick={establecerClima}><div className="bubbleOne"><p>Pereza</p><div id='resultadito'></div></div></button>
                 <button className="buttonTwoChallenge" onClick={establecerClima2}><div className="bubbleTwo"><p>Indisciplina</p><div id='resultadito2'></div></div></button>
                 <button className="buttonTwoChallenge" onClick={establecerClima3}><div className="bubbleTwo"><p>Autonomía</p><div id='resultadito3'></div></div></button>
-                <button className="buttonTwoChallenge" onClick={establecerClima4}><div className="bubbleFour"><p>Dispersión</p><div id='resultadito4'></div></div></button>
+                <button className="buttonTwoChallenge" onClick={establecerClima4}><div className="bubbleFour"><p>Distracción</p><div id='resultadito4'></div></div></button>
                 <button className="buttonTwoChallenge" onClick={establecerClima5}><div className="bubbleFive"><p>Irresponsabilidad</p><div id='resultadito5'></div></div></button>
-                <button className="buttonTwoChallenge" onClick={establecerClima6}><div className="bubbleSix"><p>Procrastinación</p><div id='resultadito6'></div></div></button>
+                <button className="buttonTwoChallenge" onClick={establecerClima6}><div className="bubbleSix"><p>Manejo del tiempo</p><div id='resultadito6'></div></div></button>
             </div>
             <Link to="/Feli3">
                     <div className="boton">

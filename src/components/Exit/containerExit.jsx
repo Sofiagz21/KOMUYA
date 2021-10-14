@@ -10,18 +10,27 @@ const containerExit=()=> {
                     <p> ¿Estás seguro de</p>
                     <p> salir del juego?</p>
                 </div>
+                <div className="bExit">
                 <div className="buttonsExit">
-                <Link to="/">
+                    <div>
+                    <Link to="/">
                     <div className="SI">
                          <button className="si">SI</button>
                     </div>
-                </Link>
-                <Link to="/Goals">
+                    </Link>
+                </div>
+               <div>
+               <Link to="/Goals">
                     <div className="NO">
                          <button className="si">NO</button>
                     </div>
                 </Link>
+
+               </div>
+                
                     </div>
+                </div>
+                
             </div>
         </div>
     )

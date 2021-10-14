@@ -3,28 +3,21 @@ import {Link} from "react-router-dom"
 import '../stylesGoals.css'
 import '../responsiveGoals.css'
 import '../../stylesButtons.css'
-import Devolver from '../../../utils/images/Encabezado/devolver.png'
+import Encabezado from '../../Encabezado/container/encabezado'
 import Komuya from '../../../utils/images/Encabezado/komuya.png'
 import Lunes from '../../../utils/images/Retos/Lunes.svg'
 import Martes from '../../../utils/images/Retos/Martes.svg'
 import Miercoles from '../../../utils/images/Retos/Miercoles.svg'
 import Jueves from '../../../utils/images/Retos/Jueves.svg'
 import Viernes from '../../../utils/images/Retos/Viernes.svg'
-import regresar from '../../../utils/images/Home/regresar.png'
+
 
 const Goals = () => {
     return (
         <div className="goals">
-            <div className="top">
-            <img className="log"src={Komuya}/>
-            <p className="titulo">Retos de la semana</p>
-            <div className="space">
-                <Link to="/">
-                <div className="back">
-                    <img src={Devolver}/>
-                </div>
-                </Link>
-            </div>
+            <Encabezado/>
+            <div className="titulo">
+                Retos de la semana.
             </div>
             <div className="container">
                 <div className="containerGoals">

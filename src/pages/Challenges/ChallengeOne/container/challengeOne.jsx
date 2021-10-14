@@ -35,6 +35,7 @@ console.log("respuesta", establecerClima)
                 </div>
                 <div className="text">
                     <p>El reto del dia de hoy es conocerte, selecciona tu actividad favorita e identifica que tipo de habilidad tienes.</p>
+                    <p>Cuando selecciones la opción, da click en el icono del personaje para conocer tu habilidad.</p>
                 </div>
                     <div className="seleccionar">
                      <div className="opciones">

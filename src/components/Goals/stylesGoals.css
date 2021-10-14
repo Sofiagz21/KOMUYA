@@ -35,9 +35,13 @@
 }
 
 .titulo{
+    margin-top: 50px;
+    margin-bottom: 15px;
     justify-content: flex-end;
     font-family: 'Londrina Solid', cursive;
-    font-size: 60px;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
 }
 
 

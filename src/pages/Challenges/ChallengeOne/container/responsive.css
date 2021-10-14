@@ -6,8 +6,8 @@
     }
 
     .text p{
-        font-size: 18px;
-        margin: 5px 10px;
+        font-size: 15px;
+        margin: 15px 10px 10px 10px;
         justify-content: center;
         text-align: left;
         color: black;
@@ -35,13 +35,13 @@
     }
 
     #palabraTwo {
-        width: 80%;
+        width: 90%;
         margin-right: 15px;
         margin-left: 15px;
-        font-size: 18px;
+        font-size: 14px;
     }
     .result{
-        height: 400px;
+        height: 160px;
     }
 
     .texting{
@@ -91,7 +91,7 @@
 
     .result{
         margin: 50px;
-        height: 300px;
+        height: 230px;
     }
 
     .texting{
