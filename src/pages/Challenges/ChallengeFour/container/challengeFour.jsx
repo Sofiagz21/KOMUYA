@@ -2,7 +2,6 @@ import React from 'react'
 import Encabezado from '../../../../components/Encabezado/container/encabezado'
 import '../container/styles.css'
 import  ImagenFour from '../../../../utils/images/Retos/reto_fourth/queharias.png'
-
 import Modal1 from '../container/modals/ModalOne'
 import Modal2 from '../container/modals/ModalTwo'
 import Modal3 from '../container/modals/ModalThree'

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 const Fel3 = () => {
     return (
@@ -8,6 +9,11 @@ const Fel3 = () => {
              <h3>¡Felicidades!</h3>
              <p>Has finalizado el reto del día Miercoles.</p>
              <p>Vuelve mañana.</p>
+             <Link to="/Goals">
+                    <div className="boton">
+                        <input className= "enviado" type="submit" value="Terminado"/>
+                    </div>
+               </Link>  
          </div>
         </div>
      </div>

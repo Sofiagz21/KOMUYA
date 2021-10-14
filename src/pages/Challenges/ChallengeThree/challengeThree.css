@@ -37,12 +37,48 @@
     grid-template-rows: 1fr 1fr;
 }
 
+#resultadito{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#resultadito2{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#resultadito3{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#resultadito4{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#resultadito5{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#resultadito6{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .burbujas p{
     text-align: center;
     font-family:'Poppins', sans-serif ;
     font-weight: 800;
     font-size: 25px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .bubbleOne{
