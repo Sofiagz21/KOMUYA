@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Komuya_proyecto/static/css/main.0803be26.chunk.css",
+    "main.js": "/Komuya_proyecto/static/js/main.a4b41df3.chunk.js",
+    "main.js.map": "/Komuya_proyecto/static/js/main.a4b41df3.chunk.js.map",
+    "runtime-main.js": "/Komuya_proyecto/static/js/runtime-main.7cb8b5aa.js",
+    "runtime-main.js.map": "/Komuya_proyecto/static/js/runtime-main.7cb8b5aa.js.map",
+    "static/js/2.a9af2caf.chunk.js": "/Komuya_proyecto/static/js/2.a9af2caf.chunk.js",
+    "static/js/2.a9af2caf.chunk.js.map": "/Komuya_proyecto/static/js/2.a9af2caf.chunk.js.map",
+    "index.html": "/Komuya_proyecto/index.html",
+    "static/css/main.0803be26.chunk.css.map": "/Komuya_proyecto/static/css/main.0803be26.chunk.css.map",
+    "static/js/2.a9af2caf.chunk.js.LICENSE.txt": "/Komuya_proyecto/static/js/2.a9af2caf.chunk.js.LICENSE.txt",
+    "static/media/stylesExit.css": "/Komuya_proyecto/static/media/FondoExit.1c7d79c9.png",
+    "static/media/Jueves.bedc724b.svg": "/Komuya_proyecto/static/media/Jueves.bedc724b.svg",
+    "static/media/Lunes.80b56fce.svg": "/Komuya_proyecto/static/media/Lunes.80b56fce.svg",
+    "static/media/Martes.db46e1a6.svg": "/Komuya_proyecto/static/media/Martes.db46e1a6.svg",
+    "static/media/Miercoles.8c332169.svg": "/Komuya_proyecto/static/media/Miercoles.8c332169.svg",
+    "static/media/Viernes.4e04f7e1.svg": "/Komuya_proyecto/static/media/Viernes.4e04f7e1.svg",
+    "static/media/casa.d0918937.svg": "/Komuya_proyecto/static/media/casa.d0918937.svg",
+    "static/media/stylesFrases.css": "/Komuya_proyecto/static/media/retosFondo.7e63fbb7.png",
+    "static/media/corazon.1e0a6c76.svg": "/Komuya_proyecto/static/media/corazon.1e0a6c76.svg",
+    "static/media/cuerpo.48ffa4d2.png": "/Komuya_proyecto/static/media/cuerpo.48ffa4d2.png",
+    "static/media/stylesGoals.css": "/Komuya_proyecto/static/media/fondo.306c3d3d.png",
+    "static/media/logo.32d83d02.png": "/Komuya_proyecto/static/media/logo.32d83d02.png",
+    "static/media/mente.b59078e6.png": "/Komuya_proyecto/static/media/mente.b59078e6.png",
+    "static/media/notas.9ca06e14.png": "/Komuya_proyecto/static/media/notas.9ca06e14.png",
+    "static/media/queharias.88fcdd0b.png": "/Komuya_proyecto/static/media/queharias.88fcdd0b.png",
+    "static/media/question.17c058a8.svg": "/Komuya_proyecto/static/media/question.17c058a8.svg",
+    "static/media/salir.17e72c79.svg": "/Komuya_proyecto/static/media/salir.17e72c79.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cb8b5aa.js",
+    "static/js/2.a9af2caf.chunk.js",
+    "static/css/main.0803be26.chunk.css",
+    "static/js/main.a4b41df3.chunk.js"
+  ]
+}
